@@ -42,6 +42,7 @@ const twoSum = (arr, target) => {
     // and if the number's index is not the same as the index
     if (diffIndex !== -1 && diffIndex !== index) {
       // then return an array with the original index and the number's index
+
       return [index, diffIndex];
     }
   }
